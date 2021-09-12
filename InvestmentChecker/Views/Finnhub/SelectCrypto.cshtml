@@ -1,0 +1,21 @@
+﻿@model InvestmentChecker.Models.Finnhub.CryptoSymbol
+@{
+    <!DOCTYPE html>
+    <html lang="en">
+    <body>
+        <div class="text-center">
+            @using (Html.BeginForm("GetCryptoPrice", "Finnhub", FormMethod.Get))
+            {
+                @Html.TextBoxFor(c => c.Symbol, new { @class = "form-control", placeholder = "Crypto Symbol...", name = "symbol" })
+                <br />
+                <input type="submit" class="btn-primary" value="Submit" />
+            }
+
+            <div>
+                @Html.ActionLink("Back", "Index", "Home")
+            </div>
+        </div>
+    </body>
+</html>
+
+}

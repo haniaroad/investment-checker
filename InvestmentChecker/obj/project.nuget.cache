@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "P6Oitk9x6yuZmJo58ZLGwKM3oH36oc33kwdODN7TeCYzlpnV2Pk1CZiBhaEfj6iHJovvOyDOwXegq901LaUp5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\derie\\source\\repos\\InvestmentChecker\\InvestmentChecker\\InvestmentChecker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\derie\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

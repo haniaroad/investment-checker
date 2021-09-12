@@ -1,0 +1,21 @@
+﻿@model InvestmentChecker.Models.Finnhub.StockSymbol
+@{
+    <!DOCTYPE html>
+    <html lang="en">
+    <body>
+        <div class="text-center">
+            @using (Html.BeginForm("GetCurrentStockPriceBySymbol", "Finnhub", FormMethod.Get))
+            {
+                @Html.TextBoxFor(s => s.Symbol, new { @class = "form-control", placeholder = "Stock Symbol...", name = "symbol" })
+                <br />
+                <input type="submit" class="btn-primary" value="Submit" />
+            }
+
+            <div>
+                @Html.ActionLink("Back", "Index", "Home")
+            </div>
+        </div>
+    </body>
+</html>
+
+}
